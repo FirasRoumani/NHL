@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent"
+    android:padding="@dimen/text_small">
+
+
+
+    <ImageView
+        android:id="@+id/team_logo"
+        android:layout_width="@dimen/side_menu_list_item_image_size"
+        android:layout_height="@dimen/side_menu_list_item_image_size"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_centerHorizontal="true"
+        />
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:orientation="vertical"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_toEndOf="@id/team_logo"
+        android:layout_toRightOf="@id/team_logo">
+
+        <TextView
+            android:id="@+id/team_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="title 7986pi utiu"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/text_size_medium"/>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+</RelativeLayout>
